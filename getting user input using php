@@ -1,0 +1,15 @@
+<?php
+
+if(isset ($_POST["submit"]))
+{
+$name=$_POST["username"];
+$dof=$_POST["dof"];
+$address=$_POST["address"];
+$domain=$_POST["domain"];
+
+echo "STAFF NAME:     ". $name."<br>";  
+echo"DATE OF JOINING :   " .$dof."<br>";
+echo "ADDRESS :           ".$address."<br>";
+echo"DOMAIN  :  " .$domain."<br>";
+}
+?>
