@@ -1,0 +1,30 @@
+<html>
+<head>
+
+<link href= "sparkout.css"  rel="stylesheet"/>
+</head>
+<body>
+<table>
+<form action = " spark.php " method="POST">
+<h1 id ="heading"> SPARKOUT TECH SOLUTION </h2>
+<tr><td> <label> STAFF NAME:  </label> </td>
+<td><input type ="text" name="username" id="username"/> </td> </tr>
+<tr><td> <label>DATE OF JOINING:  </label> </td>
+<td><input type ="date" name="dof" id="dof"/> </td> </tr>
+<tr><td> <label> ADDRESS:  </label> </td>
+<td><input type ="text" name="address" id="address"/> </td> </tr>
+<tr><td> <label> DOMAIN:  </label> </td>
+<td><input type ="text" name="domain" id="domain"/> </td> </tr>
+ <tr><td> <input type ="submit"  value="login"name="su                             bmit"/>  </td> </tr>
+
+<body>
+<marquee direction="leftwards" height="25" width="1500" bgcolor="gray">
+Sparkout tech solution welcomes you " " Sparkout tech solution welcomes you ""Sparkout tech solution welcomes you
+ </marquee>
+</body>
+
+
+</form>
+</table>
+</body>
+</html>
